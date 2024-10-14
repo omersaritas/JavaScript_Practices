@@ -1,0 +1,41 @@
+#container{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 2rem;
+    pad: 13px 18px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(245, 62%, 52%);
+    color: floralwhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(237, 90%, 45%);
+}
+
+button:active{
+    background-color: hsl(161, 77%, 55%);
+}
+
+input{
+    font-size: 2rem;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#result{
+    margin: 30px;
+}
+
+#images img{
+    width: 150px;
+    margin: 7px;
+}
